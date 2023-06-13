@@ -1,0 +1,52 @@
+# mdb-ecomm-2023-sveltkit
+### 06-13-2023
+## Devs: ```Mark, Denver, Kevin, Rafa & Nikko```
+
+### PROJECT - Ecomm Page
+- BE : Admin (Nikko)
+  - User Management
+    - Fullname
+    - Contact#
+    - Email
+    - Shipping Address
+  - Product Management
+    - Images (carousel)
+    - Name (text)
+    - Description (richtext / wysiwyg)
+    - Category (filtering) 
+    - Rating (star rating)
+    - Options (price selection)
+	- Image
+	- Name
+	- Price
+  - Ratings
+    - ProductID
+    - Rate
+    - Comment
+    - User
+  - Orders
+    - Order#
+    - UserID
+    - ProductID
+    - Option
+    - Price
+    - Payment Method (COD)
+- FE : User / Client (Denver, Nikko, Kevin & Rafa)
+  - Product Gallery (page) Kevin - Nikko
+    - Search with Filter (category)
+    - List with pagination (gallery)
+  - Product Page (page) Kevin - Nikko
+    - Image (carousel)
+    - Name
+    - Rating
+    - Options - Price
+    - Description
+    - Ratings (crud)
+  - Authentication (modal) Rafa - Denver
+    - Login with username & email
+    - Registration
+  - Account (modal) Rafa - Denver
+    - Account Details
+    - View Orders
+    - Logout
+  - Cart / Orders (modal - checkout) Rafa - Denver
